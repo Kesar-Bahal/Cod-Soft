@@ -1,272 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: rgb(0, 0, 33);
-            color: whitesmoke;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 70px;
-            background-color: rgb(46, 46, 104);
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            margin: 0 23px;
-            list-style: none;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
-
-        nav ul li a:hover {
-            color: rgb(124, 124, 183);
-        }
-
-        .left {
-            font-size: 1.5rem;
-        }
-
-        .firstSection {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 60px 0;
-        }
-
-        .firstSection>div {
-            width: 30%;
-        }
-
-        .leftSection {
-            font-size: 2.5rem;
-            margin: 70px 0;
-        }
-        .leftSection .button{
-            padding: 25px;
-        
-        }
-        .leftSection .btn{
-            padding: 12px;
-            background-color: rgb(17, 17, 47);
-           border: 2px solid white; 
-            border-radius: 3px;
-            color: rgb(255, 255, 255);
-            font-size: 25px;
-            cursor: pointer;
-            
-        }
-        .leftSection a{
-            text-decoration: none;
-            color: white;
-        }
-       
-
-        .rightSection img {
-            width: 80%;
-            margin: 50px 0;
-        }
-
-        .purple {
-            color: blueviolet;
-        }
-
-        .secondSection {
-            margin: 80px;
-            max-width: 50vh;
-            height: 80vh;
-
-        }
-
-        main hr {
-            border: 0;
-            background-color: rgb(44, 44, 94);
-            height: 0.1rem;
-            margin: 30px 30px;
-        }
-
-        .secondSection h1 {
-            font-size: 2rem;
-        }
-
-        .white {
-            color: rgb(185, 185, 191);
-
-        }
-
-        .secondSection .box {
-            background-color: white;
-            width: 0.1vw;
-            height: 325px;
-            margin: 56px 0;
-
-
-        }
-
-        .secondSection .horizontal {
-            background-color: white;
-            width: 3vw;
-            height: 0.009vw;
-            display: flex;
-            margin: 42px 0;
-
-
-        }
-
-        .horizontal-title {
-            position: relative;
-            top: -53px;
-            right: -69px;
-        }
-
-        .top {
-            width: 50px;
-            height: 47px;
-            position: relative;
-            top: -22px;
-            right: 51px;
-        }
-
-        footer {
-            background-color: rgb(23, 23, 51);
-        } 
-
-        .footer {
-            display: flex;
-            padding: 23px 122px;
-            justify-content: space-evenly ;
-        }
-        .footer ul{
-            list-style: none;
-        }
-        footer .footer-rights{
-            text-align: center;
-            color: gray;
-            padding: 12px;
-        }
-    
-    </style>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
 </head>
-
-<body>
-    <header>
-        <nav>
-            <div class="left">Kesar's Portfolio </div>
-            <div class="right">
-                <ul>
-                    <li><a href="./">Home</a></li>
-                    <li><a href="./">About</a></li>
-                    <li><a href="./">Projects</a></li>
-                    <li><a href="./">Contact</a></li>
-                </ul>
-            </div>
-
-            </div>
-
-        </nav>
-    </header>
-    <main>
-        <section class="firstSection">
-            <div class="leftSection"> Hi, my name is <spam class="purple">Kesar</spam>
-                <div>
-                    and I am a passionate <div><span class="purple">Web Developer.</span> </div>
-                </div>
-                <div class="button">
-                <button class="btn"><a href="./resume.pdf">Resume</a></button>
-                </div>
-
-            </div>
-            <div class="rightSection">
-                <img src="./1000108565 (1).jpg" alt="img">
-
-            </div>
-        </section>
-        <hr>
-        <section class="secondSection">
-            <span class="white">What I have learned so far</span>
-            <h1> Skills </h1>
-            <div class="box">
-                <div class="horizontal">
-                    <img src="./c.png" alt="c" class="top">
-                </div>
-                <div class="horizontal-title">C</div>
-
-                <div class="horizontal">
-                    <img src="./c++.png" alt="c++" class="top">
-                </div>
-                <div class="horizontal-title">C++</div>
-
-                <div class="horizontal">
-                    <img src="./dsa.png" alt="dsa" class="top">
-                </div>
-                <div class="horizontal-title">DSA</div>
-
-
-                <div class="horizontal">
-                    <img class="top" src="./web.png" alt="html">
-                </div>
-                <div class="horizontal-title">HTML</div>
-            </div>
-            </div>
-            </div>
-        </section>
-
-    </main>
-    <footer>
-        <div class="footer">
-            <div class="footer-first">
-                <h3>Kesar's Portfolio</h3>
-            </div>
-            <div class="footer-second">
-                <ul>
-                    <li>Certificates</li>
-                    <li>Services</li>
-                    <li>Past Experience</li>
-                    <li>Email</li>
-                </ul>
-            </div>
+<body> 
+    <h1 class="text-center">Precision Calculator</h1>
+    <div class="container mx-auto flex flex-col items-center">
+        <div class="row">
+            <input type="text" class="input">
         </div>
-        <div class="footer-rights">
-            <h6>Copyright &#xA9kesarsportfolio.com| All rights reserved</h6>
+        <div class="row">
+            <button class="button">AC</button>
+            <button class="button">%</button>
+            <button class="button">10</button>
+            <button class="button">100</button>
 
         </div>
-    </footer>
+        <div class="row">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">*</button>
+
+        </div>
+         <div class="row">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">/</button>
+
+        </div>
+         <div class="row">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">+</button>
+
+        </div>
+         <div class="row">
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button">=</button>
+            <button class="button">-</button>
+
+        </div>
+    
+    </div>
 
 
 
+
+
+    <script src="index.js"></script>
 </body>
-
 </html>
