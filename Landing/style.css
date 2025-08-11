@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800vh;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    height: 68px;
+    
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+
+}
+.section1{
+    height: 50vh;
+}
+.topleft{ 
+    width: 50%;
+
+
+}
+.topright{ 
+    width: 50%;
+     height: 50vh;
+
+}
+img{
+    height: 359px;
+    margin: 6px 124px;
+}
+.logo{
+    width:45px ;
+    height: 92px;
+    align-self: start;
+}
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 23px;
+    min-width: 15vw;
+    border: 2px solid rgb(36, 5, 41);
+    text-align: center;
+    border-radius: 8px;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 12px 2px
+}
+.btn1{
+    padding: 7px 37px;
+    border: 3px solid rgb(33, 6, 42);
+    border-radius: 7px;
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: blueviolet;
+}
+.plantable{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    padding: 15px 0;
+    border-collapse: collapse;
+}
+.section3 table th{
+    
+    border-bottom: 2px solid black;
+    
+}
+.section3 table td{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    
+}
+
+.section2 h1{
+    font-size: 2.5rem;
+}
+.section3{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.footer{
+    padding: 23px;
+    text-align: center;
+}
